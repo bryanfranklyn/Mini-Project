@@ -1,2 +1,2 @@
-# sumarna14.github.io
-Mini Project
+# M Taufiq Permana Sumarna
+Mini Project | Tugas Kuliah | Other
