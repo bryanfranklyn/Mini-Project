@@ -9,7 +9,7 @@ version 1.0
 
 #Software Information
 *Armbian 5.90 Debian 10 Buster
-*Apache2 Web Server
+*NGINX Webserver
 *PHP 7
 *Mikhmon V3
 
@@ -30,11 +30,11 @@ apt-get update --allow-releaseinfo-change
 
 #B.Install Apache2
 
-apt-get install apache2
+apt-get install nginx lighttpd
 
 #C.Install PHP
 
-apt-get install apache2
+apt-get install php
 
 #D.Download & Install Mikhmon
 
@@ -43,7 +43,7 @@ unzip mikhmonv3-master
 
 cp -f -r mikhmonv3-master /var/www/html/mikhmon
 
-chmod 755 /var/www/html
+chmod -R 755 /var/www/html
 
 systemctl apache2 reload
 
